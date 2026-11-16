@@ -55,7 +55,7 @@ namespace wt_lab8_8razor_postgresql_cherevan.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tasks");
+                    b.ToTable("RazorTasks", (string)null);
                 });
 #pragma warning restore 612, 618
         }

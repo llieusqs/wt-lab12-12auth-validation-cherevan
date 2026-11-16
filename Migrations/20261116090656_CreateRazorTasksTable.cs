@@ -6,13 +6,13 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace wt_lab8_8razor_postgresql_cherevan.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class CreateRazorTasksTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Tasks",
+                name: "RazorTasks",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
@@ -21,11 +21,12 @@ namespace wt_lab8_8razor_postgresql_cherevan.Migrations
                     Project = table.Column<string>(type: "text", nullable: false),
                     Assignee = table.Column<string>(type: "text", nullable: false),
                     EstimateHours = table.Column<decimal>(type: "numeric", nullable: false),
-                    Status = table.Column<string>(type: "text", nullable: false)
+                    Status = table.Column<string>(type: "text", nullable: false),
+                    Description = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Tasks", x => x.Id);
+                    table.PrimaryKey("PK_RazorTasks", x => x.Id);
                 });
         }
 
@@ -33,7 +34,7 @@ namespace wt_lab8_8razor_postgresql_cherevan.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Tasks");
+                name: "RazorTasks");
         }
     }
 }

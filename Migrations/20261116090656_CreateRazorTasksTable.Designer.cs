@@ -11,8 +11,8 @@ using wt_lab8_8razor_postgresql_cherevan.Data;
 namespace wt_lab8_8razor_postgresql_cherevan.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20261109203200_AddTaskDescription")]
-    partial class AddTaskDescription
+    [Migration("20261116090656_CreateRazorTasksTable")]
+    partial class CreateRazorTasksTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -58,7 +58,7 @@ namespace wt_lab8_8razor_postgresql_cherevan.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tasks");
+                    b.ToTable("RazorTasks", (string)null);
                 });
 #pragma warning restore 612, 618
         }

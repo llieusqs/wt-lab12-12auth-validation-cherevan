@@ -9,4 +9,13 @@ public class AppDbContext : DbContext
 
     // Используем ваше название модели TaskItem
     public DbSet<TaskItem> Tasks => Set<TaskItem>();
+
+    // ДОБАВЛЯЕМ ЭТОТ БЛОК:
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+        
+        // Говорим EF Core: "Модель TaskItem должна храниться в таблице RazorTasks"
+        modelBuilder.Entity<TaskItem>().ToTable("RazorTasks");
+    }
 }
