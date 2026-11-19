@@ -3,7 +3,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace wt_lab8_8razor_postgresql_cherevan.Migrations
+namespace wt_lab12_12auth_validation_cherevan.Migrations
 {
     /// <inheritdoc />
     public partial class CreateRazorTasksTable : Migration

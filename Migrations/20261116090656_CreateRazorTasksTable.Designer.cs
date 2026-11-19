@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using wt_lab8_8razor_postgresql_cherevan.Data;
+using wt_lab12_12auth_validation_cherevan.Data;
 
 #nullable disable
 
-namespace wt_lab8_8razor_postgresql_cherevan.Migrations
+namespace wt_lab12_12auth_validation_cherevan.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20261116090656_CreateRazorTasksTable")]
@@ -24,7 +24,7 @@ namespace wt_lab8_8razor_postgresql_cherevan.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("wt_lab8_8razor_postgresql_cherevan.Models.TaskItem", b =>
+            modelBuilder.Entity("wt_lab12_12auth_validation_cherevan.Models.TaskItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

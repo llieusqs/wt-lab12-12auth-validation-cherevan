@@ -2263,11 +2263,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\коды\\wt-lab8-8razor-postgresql-cherevan\\wt-lab5-5razor-cherevan.csproj",
-      "projectName": "wt-lab5-5razor-cherevan",
-      "projectPath": "D:\\коды\\wt-lab8-8razor-postgresql-cherevan\\wt-lab5-5razor-cherevan.csproj",
+      "projectUniqueName": "D:\\коды\\wt-lab12-12auth-validation-cherevan\\wt-lab12-12auth-validation-cherevan.csproj",
+      "projectName": "wt-lab12-12auth-validation-cherevan",
+      "projectPath": "D:\\коды\\wt-lab12-12auth-validation-cherevan\\wt-lab12-12auth-validation-cherevan.csproj",
       "packagesPath": "C:\\Users\\Diana\\.nuget\\packages\\",
-      "outputPath": "D:\\коды\\wt-lab8-8razor-postgresql-cherevan\\obj\\",
+      "outputPath": "D:\\коды\\wt-lab12-12auth-validation-cherevan\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\wt-lab12-12auth-validation-cherevan.props" />
+</Project>

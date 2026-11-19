@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace wt_lab8_8razor_postgresql_cherevan.Models;
+namespace wt_lab12_12auth_validation_cherevan.Models;
 
 public class TaskItem
 {

@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using wt_lab8_8razor_postgresql_cherevan.Data;
+using wt_lab12_12auth_validation_cherevan.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +32,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 var port = Environment.GetEnvironmentVariable("PORT") ?? "10000";
 builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
+builder.Services.AddSession();
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
@@ -56,6 +57,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession();
 
 app.UseAuthorization();
 

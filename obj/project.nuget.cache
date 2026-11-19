@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Z3xHKF9+cA=",
+  "dgSpecHash": "VAfcyTjN8hY=",
   "success": true,
-  "projectFilePath": "D:\\коды\\wt-lab8-8razor-postgresql-cherevan\\wt-lab5-5razor-cherevan.csproj",
+  "projectFilePath": "D:\\коды\\wt-lab12-12auth-validation-cherevan\\wt-lab12-12auth-validation-cherevan.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diana\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Diana\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

@@ -1,0 +1,19 @@
+@page
+@model ProfileModel
+
+<h2>Личный кабинет</h2>
+<hr />
+
+<div class="card mb-4">
+    <div class="card-body">
+        <h4 class="card-title">Данные учетной записи</h4>
+        <p class="card-text">
+            Вы вошли как: <strong>@Model.UserLogin</strong>
+        </p>
+        <p class="text-muted">Роль: Менеджер IT-проектов</p>
+    </div>
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Выйти из системы</button>
+</form>

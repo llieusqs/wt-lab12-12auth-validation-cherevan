@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using wt_lab8_8razor_postgresql_cherevan.Data;
-using wt_lab8_8razor_postgresql_cherevan.Models;
+using wt_lab12_12auth_validation_cherevan.Data;
+using wt_lab12_12auth_validation_cherevan.Models;
 
-namespace wt_lab8_8razor_postgresql_cherevan.Pages.Tasks;
+namespace wt_lab12_12auth_validation_cherevan.Pages.Tasks;
 
 public class CreateModel : PageModel
 {
